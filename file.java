@@ -13,3 +13,10 @@ public class Main {
         System.out.println("Sum is " + sum);
     }
 }
+
+
+class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+    }
+}
