@@ -1,9 +1,15 @@
-class Main {
+public class Main {
+
   public static void main(String[] args) {
 
-    char c;
+    int count = 0, num = 0003452;
 
-    for(c = 'A'; c <= 'Z'; ++c)
-      System.out.print(c + " ");
+    while (num != 0) {
+      // num = num/10
+      num /= 10;
+      ++count;
     }
+
+    System.out.println("Number of digits: " + count);
+  }
 }
